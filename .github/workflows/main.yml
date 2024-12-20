@@ -1,4 +1,6 @@
- # Triggers the workflow on push or pull request events but only for the main branch
+name: Learning Kubernetes 2.3
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
   push:
     branches: [ main ]
   pull_request:
@@ -14,6 +16,7 @@ jobs:
     steps:
       - name: Hello testing print
         run: echo Hello, world!
+
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
