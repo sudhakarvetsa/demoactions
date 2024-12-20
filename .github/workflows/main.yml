@@ -14,7 +14,6 @@ jobs:
     steps:
       - name: Hello testing print
         run: echo Hello, world!
-
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
